@@ -1,0 +1,9 @@
+.player-name-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.7rem;
+    min-height: 2.7rem;
+    text-align: center;
+    font-weight: bold;
+}
