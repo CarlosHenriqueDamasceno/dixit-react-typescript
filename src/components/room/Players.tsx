@@ -11,7 +11,7 @@ function Players(){
             {
                 Object.values(players).map((player) => {
                     return (
-                        <div key={player.id} className="font-monospace bg-white rounded-circle player-name-circle ms-3">
+                        <div key={player.id} className="font-monospace bg-white text-dark rounded-circle player-name-circle ms-3">
                             {player.initials}
                         </div>
                     );
